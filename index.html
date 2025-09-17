@@ -8,43 +8,62 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="image/odin-lined.png" alt="">
-        <div class="logo">
-             
+        <div class="logo-container">
+            <a href="https://www.theodinproject.com">
+                <img src="image/odin-lined.png" alt="">
+            </a>
+        </div>
+        <div class="title">
             <p id="text">THE ODIN MEMORIES</p>
         </div>
-        <p id="image-credit"><a href="">Photo by</a></p>
+        <div class="credit-container"><a id="image-credit" href="https://unsplash.com/@tannnpro">Photo by Tanya Prodaan</a> </div>
     </div>
+
     <div class="form-side">
-        <p class="service-description"> This is not a real online service! You need something like this in your life to help you realize your deepest dreams.<br>
-        Sign up <em>now</em> to get started.</p>
-        <p class="service-call"><br>You <em>know you wnat to.</em></p>
+        <p class="service-description"> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+            Sign up <em>now</em> to get started.
+            <br><br>You <em>know</em> you wnat to.
+        </p>
         <div class="form">
-            <h1 id="form-header">Let's do this</h1>
+            <h2 id="form-header">Let's do this!</h1>
             <form id="myForm" action="">
                 <div class="form-line">
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text" id="fname" name="fname" required >
-                    <label for="lname">LAST NAME</label>
-                    <input type="text" id="lname" name="lname" required >
-                </div class="form-line">
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" required >
-                    <label for="tel">PHONE NUMBER</label>
-                    <input type="tel" id="tel" name="tel" required >
+                    <div class="textbox">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" pattern="[\w\d]{2,}$" required >
+                    </div>
+                    <div class="textbox">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname" pattern="[\w\d]{2,}$" required >
+                    </div>
                 </div>
                 <div class="form-line">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-                    <label for="cpassword">CONFIRM PASSWORD</label>
-                    <input type="cpassword" id="cpassword" name="cpassword">
+                    <div class="textbox">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required >
+                    </div>
+                    <div class="textbox">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" id="tel" name="tel" pattern="\d{3}-\d{2}-\d{2}-\d{2}" placeholder="0555-55-55-55" required >
+                    </div>
+                </div>
+                <div class="form-line">
+                    <div class="textbox">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="textbox">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="cpassword" id="cpassword" name="cpassword" required>
+                    </div>
                 </div>
             </form>
+        </div>
+        <div class="account-access">
             <button form="myForm" type="submit">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
-
         </div>
+        <div class="credit"> &copy; 2025 <a href="">sooqyip</a></div>
     </div>
 </body>
 </html>
