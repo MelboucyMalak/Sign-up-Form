@@ -8,66 +8,6 @@ body{
 }
 
 @font-face {
-    font-family: 'feroniaregular';
-    src: url('font/feronia-webfont.woff2') format('woff2'),
-         url('font/feronia-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'qene';
-    src: url('font/qene-g-free-version-www.balibillydesign.com--webfont.woff2') format('woff2'),
-         url('font/qene-g-free-version-www.balibillydesign.com--webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'yeseva_oneregular';
-    src: url('font/yesevaone-regular-webfont.woff2') format('woff2'),
-         url('font/yesevaone-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'rosemartinregular';
-    src: url('font/rosemartin-webfont.woff2') format('woff2'),
-         url('font/rosemartin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'cafe24';
-    src: url('font/cafe24classictype-webfont.woff2') format('woff2'),
-         url('font/cafe24classictype-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
     font-family: 'robotoregular';
     src: url('font/roboto-variablefont_wdthwght-webfont.woff2') format('woff2'),
          url('font/roboto-variablefont_wdthwght-webfont.woff') format('woff');
@@ -78,10 +18,7 @@ body{
 
 button,
 label,
-input,
-select,
-progress,
-meter {
+input{
   margin: 0;
   box-sizing: border-box;
   height: 35px;
